@@ -155,3 +155,15 @@ Below is an overview of the main database entities and how they relate to each o
 - [x] A Review is written by a User for a Property.
 
 - [x] A Payment is made for one Booking.
+
+## Feature Breakdown
+
+### User Management
+This feature allows users to register, log in, and manage their profiles securely. It supports different user roles such as guests and hosts, enabling personalized access and actions based on the role.
+
+### Property Management
+Hosts can list and manage their properties through this feature. It allows adding property details, updating availability, and maintaining property information, making it easy for guests to browse and select accommodations.
+
+### Booking System
+The booking system enables guests to book properties for specific dates. It handles availability checks, booking confirmation, and stores booking history, providing a seamless reservation experience for users.
+
