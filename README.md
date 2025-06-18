@@ -2,16 +2,16 @@
 👥 Team Roles
 Below are the key roles and responsibilities involved in this project:
 
-#🔧 Backend Developer
+## 🔧 Backend Developer
 Builds the server-side logic and API endpoints using frameworks like Django or Node.js. Responsible for:
 
- [x] Implementing RESTful APIs
+ - [x] Implementing RESTful APIs
 
- [x] Managing authentication & authorization
+ - [x] Managing authentication & authorization
 
- [x] Ensuring secure, scalable backend logic
+ - [x] Ensuring secure, scalable backend logic
 
-🗄️ Database Administrator (DBA)
+## 🗄️ Database Administrator (DBA)
 Designs and manages the data layer of the application. Responsibilities include:
 
 Setting up and optimizing databases (e.g., PostgreSQL, MySQL)
