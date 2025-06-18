@@ -179,4 +179,9 @@ To ensure the backend APIs are secure and reliable, the project implements sever
 
 Security is critical in this project because it protects sensitive user information such as personal details and payment data, preserves trust, and prevents malicious activities that could disrupt service or cause data breaches.
 
+## CI/CD Pipeline
+
+Continuous Integration and Continuous Deployment (CI/CD) pipelines automate the process of testing, building, and deploying code changes. This helps ensure that new code integrates smoothly, reduces manual errors, and allows for faster delivery of features and bug fixes.
+
+For this project, tools like GitHub Actions can automate workflows directly from the repository, while Docker can be used to create consistent and portable environments for development and deployment. Implementing a CI/CD pipeline improves code quality, accelerates development cycles, and enhances overall project reliability.
 
