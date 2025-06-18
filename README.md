@@ -87,14 +87,18 @@ Version control tools used for tracking changes and collaborating on code.
 🧩 Database Design
 Below is an overview of the main database entities and how they relate to each other in the project.
 
-📘 Entities and Fields
-👤 Users
-Field	Description
-id	Unique identifier for the user
-name	Full name of the user
-email	Email address (unique)
-password	Encrypted password
-role	Indicates if user is guest or host
+## 📘 Entities and Fields
+
+### 👤 Users
+
+| Field    | Description                      |
+|----------|---------------------------------|
+| id       | Unique identifier for the user  |
+| name     | Full name of the user           |
+| email    | Email address (unique)          |
+| password | Encrypted password              |
+| role     | Indicates if user is guest or host |
+
 
 ### 🏠 Properties
 
