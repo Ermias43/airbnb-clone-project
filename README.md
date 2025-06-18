@@ -167,3 +167,16 @@ Hosts can list and manage their properties through this feature. It allows addin
 ### Booking System
 The booking system enables guests to book properties for specific dates. It handles availability checks, booking confirmation, and stores booking history, providing a seamless reservation experience for users.
 
+## API Security
+
+To ensure the backend APIs are secure and reliable, the project implements several key security measures:
+
+- **Authentication:** Verifies the identity of users before allowing access to protected resources. This prevents unauthorized users from accessing sensitive data or actions.
+  
+- **Authorization:** Controls what authenticated users can do based on their roles (e.g., guest or host). This ensures users only access or modify data they have permission for, protecting both user data and system integrity.
+  
+- **Rate Limiting:** Limits the number of API requests a user or IP can make within a time frame. This protects the system from abuse, such as denial-of-service attacks, and maintains service availability for legitimate users.
+
+Security is critical in this project because it protects sensitive user information such as personal details and payment data, preserves trust, and prevents malicious activities that could disrupt service or cause data breaches.
+
+
