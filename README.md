@@ -14,45 +14,45 @@ Builds the server-side logic and API endpoints using frameworks like Django or N
 ## 🗄️ Database Administrator (DBA)
 Designs and manages the data layer of the application. Responsibilities include:
 
-Setting up and optimizing databases (e.g., PostgreSQL, MySQL)
+-  [x] Setting up and optimizing databases (e.g., PostgreSQL, MySQL)
 
-Ensuring data integrity, backup, and recovery
+-  [x] Ensuring data integrity, backup, and recovery
 
-Performance tuning of queries
+-  [x] Performance tuning of queries
 
-🎨 Frontend Developer
+## 🎨 Frontend Developer
 Creates the user-facing part of the application. Responsible for:
 
-Building responsive UI with HTML, CSS, JS, or frameworks like React/Next.js
+-  [x] Building responsive UI with HTML, CSS, JS, or frameworks like React/Next.js
 
-Integrating with backend APIs
+-  [x] Integrating with backend APIs
 
-Ensuring an optimal user experience
+-  [x] Ensuring an optimal user experience
 
-🧠 Project Manager
+## 🧠 Project Manager
 Oversees project planning and delivery. Duties include:
 
-Assigning tasks and tracking progress
+-  [x] Assigning tasks and tracking progress
 
-Facilitating team communication
+-  [x] Facilitating team communication
 
-Ensuring timely delivery of milestones
+-  [x] Ensuring timely delivery of milestones
 
-🧪 QA Engineer (Quality Assurance)
+## 🧪 QA Engineer (Quality Assurance)
 Ensures the product meets quality standards through:
 
-Writing and executing manual/automated tests
+-  [x] Writing and executing manual/automated tests
 
-Detecting bugs and performance issues
+-  [x] Detecting bugs and performance issues
 
-Validating feature requirements
+-  [x] Validating feature requirements
 
-☁️ DevOps Engineer
+## ☁️ DevOps Engineer
 Handles deployment and infrastructure. Key responsibilities:
 
-Managing CI/CD pipelines
+-  [x] Managing CI/CD pipelines
 
-Cloud configuration and resource scaling
+-  [x] Cloud configuration and resource scaling
 
-Monitoring and system troubleshooting
+-  [x] Monitoring and system troubleshooting
 
