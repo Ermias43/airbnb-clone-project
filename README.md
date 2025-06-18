@@ -84,4 +84,70 @@ Version control tools used for tracking changes and collaborating on code.
 - [x] GitHub hosts the project repository and supports team collaboration.
 
 
+🧩 Database Design
+Below is an overview of the main database entities and how they relate to each other in the project.
 
+📘 Entities and Fields
+👤 Users
+Field	Description
+id	Unique identifier for the user
+name	Full name of the user
+email	Email address (unique)
+password	Encrypted password
+role	Indicates if user is guest or host
+
+### 🏠 Properties
+
+| Field         | Description                                |
+|---------------|--------------------------------------------|
+| `id`          | Unique identifier for the property         |
+| `title`       | Name/title of the property                 |
+| `description` | Detailed description                       |
+| `location`    | Physical address or coordinates            |
+| `owner_id`    | References the user who owns the property  |
+
+
+### 📅 Bookings
+
+| Field         | Description                          |
+|---------------|--------------------------------------|
+| `id`          | Unique identifier for the booking    |
+| `user_id`     | The user who made the booking        |
+| `property_id` | The property being booked            |
+| `start_date`  | Booking start date                   |
+| `end_date`    | Booking end date                     |
+
+
+### ✍️ Reviews
+
+| Field         | Description                          |
+|---------------|--------------------------------------|
+| `id`          | Unique identifier for the review     |
+| `user_id`     | The user who wrote the review        |
+| `property_id` | The property being reviewed          |
+| `rating`      | Numeric rating (e.g., 1–5 stars)     |
+| `comment`     | Optional text feedback               |
+
+
+### 💳 Payments
+
+| Field       | Description                                 |
+|-------------|---------------------------------------------|
+| `id`        | Unique identifier for the payment           |
+| `booking_id`| References the related booking              |
+| `amount`    | Total amount paid                           |
+| `status`    | Status of the payment (e.g., paid, failed)  |
+| `method`    | Payment method used                         |
+
+
+
+### 🔗 Entity Relationships
+- [x] A User can own multiple Properties.
+
+- [x] A Property can have many Bookings and Reviews.
+
+- [x] A Booking is linked to one User and one Property.
+
+- [x] A Review is written by a User for a Property.
+
+- [x] A Payment is made for one Booking.
