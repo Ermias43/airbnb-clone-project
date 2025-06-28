@@ -1,8 +1,8 @@
 # Entity Relationship Diagram for ALX Airbnb Database
 
-## Ì≥å Entities & Attributes
+##  Entities & Attributes
 
-### Ì∑ë‚ÄçÌ≤º User
+###  User
 - `user_id` (PK, UUID, Indexed)
 - `first_name` (VARCHAR, NOT NULL)
 - `last_name` (VARCHAR, NOT NULL)
@@ -12,7 +12,7 @@
 - `role` (ENUM: guest, host, admin, NOT NULL)
 - `created_at` (TIMESTAMP, DEFAULT CURRENT_TIMESTAMP)
 
-### Ìø† Property
+###  Property
 - `property_id` (PK, UUID, Indexed)
 - `host_id` (FK ‚Üí User.user_id)
 - `name` (VARCHAR, NOT NULL)
@@ -22,7 +22,7 @@
 - `created_at` (TIMESTAMP, DEFAULT CURRENT_TIMESTAMP)
 - `updated_at` (TIMESTAMP, ON UPDATE CURRENT_TIMESTAMP)
 
-### Ì≥Ö Booking
+###  Booking
 - `booking_id` (PK, UUID, Indexed)
 - `property_id` (FK ‚Üí Property.property_id)
 - `user_id` (FK ‚Üí User.user_id)
@@ -32,14 +32,14 @@
 - `status` (ENUM: pending, confirmed, canceled, NOT NULL)
 - `created_at` (TIMESTAMP, DEFAULT CURRENT_TIMESTAMP)
 
-### Ì≤≥ Payment
+###  Payment
 - `payment_id` (PK, UUID, Indexed)
 - `booking_id` (FK ‚Üí Booking.booking_id)
 - `amount` (DECIMAL, NOT NULL)
 - `payment_date` (TIMESTAMP, DEFAULT CURRENT_TIMESTAMP)
 - `payment_method` (ENUM: credit_card, paypal, stripe, NOT NULL)
 
-### Ì≤¨ Review
+###  Review
 - `review_id` (PK, UUID, Indexed)
 - `property_id` (FK ‚Üí Property.property_id)
 - `user_id` (FK ‚Üí User.user_id)
@@ -56,7 +56,7 @@
 
 ---
 
-## Ì¥ó Relationships
+##  Relationships
 
 | Relationship | Type | Description |
 |--------------|------|-------------|
@@ -73,5 +73,5 @@
 ## Ì≥ä ER Diagram Visual
 
 
-![ER Diagram](./airbnb-erd.png)
+![ER Diagram](./Entity-Relationship.drawio.png)
 
